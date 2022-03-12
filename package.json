@@ -1,0 +1,28 @@
+{
+  "name": "travelerapp",
+  "version": "1.0.0",
+  "description": "a group to build an API using Node.js, Express.js, MySQL, and Sequelize, and you will deploy it to Heroku.  ## User Stories  * As a traveller, I want to be able to create an account.  * As a traveller, I want to be able to create a new trip for myself using a location from a list.  * As a traveller, I want to be able to create and view location data.  * As a traveller, I want to be able to view all of the trips I'm taking, along with their locations.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mike-C-Sanders/TravelerApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mike-C-Sanders/TravelerApp/issues"
+  },
+  "homepage": "https://github.com/Mike-C-Sanders/TravelerApp#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.17.0"
+  }
+}
